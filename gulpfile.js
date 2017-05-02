@@ -1,4 +1,4 @@
-var gulp = require('gulp'),
+const gulp = require('gulp'),
     mocha = require('gulp-mocha'),
     babel = require('babel-register');
 
