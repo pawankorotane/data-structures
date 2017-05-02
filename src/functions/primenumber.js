@@ -1,5 +1,8 @@
 'use strict';
 
+/**
+ * JavaScript function that accepts a number as a parameter and check the number is prime or not
+ */
 export default (number) => {
     if (number === 1) {
         return false;
