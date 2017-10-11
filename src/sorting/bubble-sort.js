@@ -24,7 +24,7 @@ export default class BubbleSort {
     }
 
     _swap(arr, i, j) {
-        var temp = arr[i];
+        let temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
     }

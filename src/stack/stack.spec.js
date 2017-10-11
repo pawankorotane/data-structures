@@ -2,7 +2,7 @@ import { expect } from 'chai';
 import Stack from './stack';
 
 describe('Stack Class', () =>{
-  var stack  = new Stack;
+  const stack  = new Stack;
   
   
   it('should add element to the stack', ()=>{
