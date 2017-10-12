@@ -14,6 +14,9 @@ describe('Stack Class', () =>{
     expect(stack.isEmpty()).to.equal(true);
   }); 
 
+  it('should remove element from the stack', () =>{
+    expect(stack.isEmpty()).to.equal(true);
+  });
   afterEach(function() {
     stack.dataStore = [];
   });

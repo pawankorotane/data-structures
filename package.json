@@ -21,9 +21,11 @@
     "babel-register": "^6.23.0",
     "chai": "^3.5.0",
     "gulp": "^3.9.1",
-    "gulp-mocha": "^4.0.1"
+    "gulp-babel": "^6.1.2"
   },
   "babel": {
-    "presets": ["es2015"]
+    "presets": [
+      "es2015"
+    ]
   }
 }
