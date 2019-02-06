@@ -4,7 +4,8 @@
   "description": "Data Structures and alogrithms",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register src/**/*.spec.js"
+    "test": "mocha --compilers js:babel-core/register src/**/*.spec.js",
+    "test:watch": "gulp test:watch"
   },
   "repository": {
     "type": "git",
